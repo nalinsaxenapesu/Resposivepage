@@ -1,0 +1,56 @@
+.wrapper{
+  width: 100%
+}
+.banner{
+display: none
+}
+
+h2{
+  padding: 10px,10px,10px,10px;
+  font-family: cursive;
+font-size: 40px;
+}
+
+.lorum{
+  max-width: 100%;
+}
+
+body {
+  background-color: violet;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  .banner{
+  display:block;
+  width: 100%;
+  }
+  .text{
+    font-size: 30px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: #FFCB42;
+  }
+.lorum{
+  float: right;
+  width:45%;
+}
+
+  .img-info{
+    float: left;
+    width: 50%;
+
+  }
+  h2{
+    text-align: center;
+  }
+
+
+}
